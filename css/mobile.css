@@ -1,0 +1,44 @@
+#wrapper { max-width: 600px; margin: auto}
+header { padding: 0 0 50px 0}
+header .logo {margin: 20px auto; }
+header nav { position: relative}
+header nav ul:first-child { max-width: 270px; margin: auto; display: table }
+header nav ul li { display: table-cell; text-align: center; font-size: 15px; width: 33%; padding: 0 3px }
+header nav ul li a { text-decoration: none; color: #312c26; line-height: 15px; position: relative }
+header nav ul li a:hover {  border-bottom: 2px solid #8f2433; -webkit-transition: .2s ease; -o-transition: .2s ease; -moz-transition: .2s ease; -ms-transition: .2s ease; transition: .2s ease;}
+header nav ul li a .arrow {position: absolute; width: 0; height: 0; left: 50%; top: 10px; border: 10px solid; 
+border-color: transparent transparent #a4a3a0 transparent; margin-left: -10px; display: none}
+header nav ul li .wrapper { display: none; position: absolute; width: 100%; left: 0px; top: 30px}
+header nav ul li .info { background-color: #a4a3a0; color: white; font-family: 'helveticaneuecyrthin'; font-size: 10px; padding: 10px; text-align: left; max-width: 600px; margin: auto; overflow: hidden; position: relative  }
+header nav ul li.contact  .info { max-width: 320px; }
+header nav ul li .info .close { width: 10px; height: 10px; position: absolute; top: 5px; right: 5px; cursor: pointer;background: url(../img/icon_sprite.png) -379px 0 no-repeat; z-index: 1 }
+header nav ul li.contact .info .icon { background: url(../img/icon_sprite.png) 0 0 no-repeat;  width: 73px; height: 48px; float: left; margin: 20px 0 0 30px; }
+header nav ul li.contact .info .info_wrapper { float: right; min-width: 200px}
+header nav ul li.contact .info .title { font-family: 'helveticaneuecyrbold'; margin: 15px 20px 5px 20px; font-size: 10px} 
+header nav ul li.contact .info p {  margin: 5px 20px 10px 20px; line-height: 16px; font-size: 10px; }
+header nav ul li.partners .info .icon { width: 50px; height: 50px;  margin: 10px 0 0 0; display: inline-block}
+header nav ul li.partners .info ul li { display: block; text-align: center; font-size: 10px; padding: 0 0 10px 0; float: left; width: 20%; min-width: 80px}
+header nav ul li.about .info p { padding: 5px 10px; line-height: 12px; }
+header nav ul li.about .info p strong { font-weight: normal; font-family: 'helveticaneuecyrmedium'; }
+aside { display: none}
+
+section { padding: 0 20px 50px 20px; max-width: 360px; margin: auto}
+section .img { width: 100%; padding: 0 0 20px 0}
+.main_menu li { text-align: center; }
+.main_menu li a { text-decoration: none; font-size: 30px; font-family: 'helveticaneuecyrthin'; color: #312c26; }
+.main_menu li a:hover { border-bottom: 1px solid #8f2433;  -webkit-transition: .2s ease; -o-transition: .2s ease; -moz-transition: .2s ease; -ms-transition: .2s ease; transition: .2s ease; font-weight: 600}
+#wrapper article h2 { font-weight: normal; font-size: 20px; text-align: center;}
+#wrapper article p { font-size: 15px; padding: 10px 0; text-align: justify}
+
+
+
+
+
+
+
+
+
+
+
+
+

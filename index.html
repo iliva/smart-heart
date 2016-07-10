@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="HeartApp">
+	<head>
+	
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<link rel="SHORTCUT ICON" href="favicon.gif" type="image/x-icon">
+		<title>Smart Heart | Charity Foundation</title>
+		<base href="/">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 960px)" type="text/css">
+		<link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 960px)" type="text/css">
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+	</head>
+	<body scroll >
+	
+		<div id="top" >
+			<header>
+			<div class="inner">
+				<a href="index.html"><div class="logo"></div></a>
+				<navigation />				
+			</div>	
+			</header>			
+		</div>
+
+	
+		<ng-view></ng-view>
+	
+
+		<script src="js/jquery.min.js"></script>	
+		<script src="https://code.angularjs.org/1.4.7/angular.min.js"></script>
+		<script src="https://code.angularjs.org/1.4.7/angular-route.min.js"></script>
+		<script src="https://code.angularjs.org/1.4.7/angular-animate.js"></script>
+		<script type="text/javascript"  src="js/script.js"></script>
+	
+	</body>
+</html>

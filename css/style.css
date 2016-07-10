@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'helveticaneuecyrlight';
+    src: url('../fonts/HelveticaNeueCyr-Light-webfont.eot');
+    src: url('../fonts/HelveticaNeueCyr-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueCyr-Light-webfont.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyr-Light-webfont.woff') format('woff'),
+         url('../fonts/HelveticaNeueCyr-Light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrthin';
+    src: url('../fonts/HelveticaNeueCyr-Thin-webfont.eot');
+    src: url('../fonts/HelveticaNeueCyr-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueCyr-Thin-webfont.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyr-Thin-webfont.woff') format('woff'),
+         url('../fonts/HelveticaNeueCyr-Thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrbold';
+    src: url('../fonts/HelveticaNeueCyr-Bold-webfont.eot');
+    src: url('../fonts/HelveticaNeueCyr-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueCyr-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyr-Bold-webfont.woff') format('woff'),
+         url('../fonts/HelveticaNeueCyr-Bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'helveticaneuecyrmedium';
+    src: url('../fonts/HelveticaNeueCyr-Medium-webfont.eot');
+    src: url('../fonts/HelveticaNeueCyr-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueCyr-Medium-webfont.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyr-Medium-webfont.woff') format('woff'),
+         url('../fonts/HelveticaNeueCyr-Medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrroman';
+    src: url('../fonts/HelveticaNeueCyr-Roman-webfont.eot');
+    src: url('../fonts/HelveticaNeueCyr-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueCyr-Roman-webfont.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyr-Roman-webfont.woff') format('woff'),
+         url('../fonts/HelveticaNeueCyr-Roman-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, cufon, canvas {margin:0; padding:0; font-size:100%; }
+img {border:0;}
+html, body { height: 100%; }
+body {color: #312c26; font-family: 'helveticaneuecyrlight', Verdana; font-size: 15px; background-image: url(../img/bg.jpg); background-size: cover; background-attachment: fixed }
+table {border-collapse: collapse;}
+li {list-style: none; }
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak { display: none }
+
+header .logo { width: 216px; height: 61px; background: url(../img/icon_sprite.png) -434px 0 no-repeat; }
+header nav ul li.partners .info {overflow: hidden}
+header nav ul li.partners .info .icon { width: 50px; height: 50px;  margin: 10px 0 0 0; display: inline-block}
+header nav ul li.partners .info .bank { background: url(../img/icon_sprite.png) -84px 9px no-repeat; } 
+header nav ul li.partners .info .avia { background: url(../img/icon_sprite.png) -140px 9px no-repeat; } 
+header nav ul li.partners .info .foreign { background: url(../img/icon_sprite.png) -203px 9px no-repeat; } 
+header nav ul li.partners .info .market { background: url(../img/icon_sprite.png) -264px 9px no-repeat; } 
+header nav ul li.partners .info .private { background: url(../img/icon_sprite.png) -319px 9px no-repeat; } 
+
+li .info {
+  -webkit-transition:all linear .5s;
+  -moz-transition:all linear .5s;
+  -o-transition:all linear .5s;
+  transition:all linear .5s;
+}
+li .info.ng-hide-remove { height: 0px; } 			
+li .info.ng-hide-remove-active { height: 100px; } 
+li .info.ng-hide-add-active { height: 0px; }
+
+p a { color: #312c26; text-decoration: none;}
+p a:hover, p a:visited {  color: #312c26; text-decoration: underline;}
+			
+
+
+
+
+
+
+
